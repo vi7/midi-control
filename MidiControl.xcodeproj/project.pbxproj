@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4562EB716DFE09700163195 /* GMProgram.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4562EB616DFE09700163195 /* GMProgram.plist */; };
+		D4562EBD16DFFF9900163195 /* GMProgListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4562EBC16DFFF9900163195 /* GMProgListCell.xib */; };
+		D45E7A8F16D7DAD70060D7EB /* arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = D45E7A8D16D7DAD70060D7EB /* arrow-right.png */; };
+		D45E7A9016D7DAD70060D7EB /* arrow-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45E7A8E16D7DAD70060D7EB /* arrow-right@2x.png */; };
+		D45E7A9B16D7E1150060D7EB /* arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = D45E7A9916D7E1150060D7EB /* arrow-left.png */; };
+		D45E7A9C16D7E1150060D7EB /* arrow-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D45E7A9A16D7E1150060D7EB /* arrow-left@2x.png */; };
+		D470747E16CCEDC5002E4B00 /* NoteKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = D470747D16CCEDC5002E4B00 /* NoteKeyView.m */; };
+		D487175016E3597B00D50B71 /* GMProgListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D487174F16E3597B00D50B71 /* GMProgListTableView.m */; };
+		D4919A2C16D6230000FED00E /* MCData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4919A2B16D6230000FED00E /* MCData.plist */; };
+		D4932F2516D272C0005419BF /* Black-Key-27@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4932F2116D272BF005419BF /* Black-Key-27@2x.png */; };
+		D4932F2616D272C0005419BF /* White-Key-Center-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4932F2216D272BF005419BF /* White-Key-Center-40@2x.png */; };
+		D4932F2716D272C0005419BF /* White-Key-Left-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4932F2316D272BF005419BF /* White-Key-Left-40@2x.png */; };
+		D4932F2816D272C0005419BF /* White-Key-Right-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4932F2416D272BF005419BF /* White-Key-Right-40@2x.png */; };
+		D497B06116CE3E8E00B6DB78 /* Black-Key-27.png in Resources */ = {isa = PBXBuildFile; fileRef = D497B05D16CE3E8E00B6DB78 /* Black-Key-27.png */; };
+		D497B06216CE3E8E00B6DB78 /* White-Key-Center-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D497B05E16CE3E8E00B6DB78 /* White-Key-Center-40.png */; };
+		D497B06316CE3E8E00B6DB78 /* White-Key-Left-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D497B05F16CE3E8E00B6DB78 /* White-Key-Left-40.png */; };
+		D497B06416CE3E8E00B6DB78 /* White-Key-Right-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D497B06016CE3E8E00B6DB78 /* White-Key-Right-40.png */; };
+		D498226116B97746006F5294 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D498226016B97746006F5294 /* UIKit.framework */; };
+		D498226316B97746006F5294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D498226216B97746006F5294 /* Foundation.framework */; };
+		D498226516B97746006F5294 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D498226416B97746006F5294 /* CoreGraphics.framework */; };
+		D498226B16B97746006F5294 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D498226916B97746006F5294 /* InfoPlist.strings */; };
+		D498226D16B97746006F5294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D498226C16B97746006F5294 /* main.m */; };
+		D498227116B97746006F5294 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D498227016B97746006F5294 /* AppDelegate.m */; };
+		D498227316B97746006F5294 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D498227216B97746006F5294 /* Default.png */; };
+		D498227516B97746006F5294 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D498227416B97746006F5294 /* Default@2x.png */; };
+		D498227716B97746006F5294 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D498227616B97746006F5294 /* Default-568h@2x.png */; };
+		D498227A16B97746006F5294 /* PianoKbdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D498227916B97746006F5294 /* PianoKbdViewController.m */; };
+		D498228416B98088006F5294 /* PianoKbdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D498228316B98088006F5294 /* PianoKbdViewController.xib */; };
+		D4AED99E16F5DDD200B9F2A8 /* note-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AED99C16F5DDD200B9F2A8 /* note-off.png */; };
+		D4AED99F16F5DDD200B9F2A8 /* note-off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AED99D16F5DDD200B9F2A8 /* note-off@2x.png */; };
+		D4C02B3316E7757400AF7B3E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C02B2C16E7757400AF7B3E /* Icon-72.png */; };
+		D4C02B3416E7757400AF7B3E /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C02B2D16E7757400AF7B3E /* Icon-Small-50.png */; };
+		D4C02B3516E7757400AF7B3E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C02B2E16E7757400AF7B3E /* Icon-Small.png */; };
+		D4C02B3616E7757400AF7B3E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C02B2F16E7757400AF7B3E /* Icon-Small@2x.png */; };
+		D4C02B3716E7757400AF7B3E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C02B3016E7757400AF7B3E /* Icon.png */; };
+		D4C02B3816E7757400AF7B3E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C02B3116E7757400AF7B3E /* Icon@2x.png */; };
+		D4C02B3916E7757400AF7B3E /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = D4C02B3216E7757400AF7B3E /* iTunesArtwork */; };
+		D4C347CB16DE43E3002771D5 /* touchpad-tex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4C347C316DE43E1002771D5 /* touchpad-tex.jpg */; };
+		D4C347CC16DE43E3002771D5 /* touchpad-tex@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4C347C416DE43E1002771D5 /* touchpad-tex@2x.jpg */; };
+		D4C347CF16DE43E3002771D5 /* arrow-up.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C347C716DE43E2002771D5 /* arrow-up.png */; };
+		D4C347D016DE43E3002771D5 /* arrow-up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C347C816DE43E2002771D5 /* arrow-up@2x.png */; };
+		D4C347D116DE43E3002771D5 /* arrow-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C347C916DE43E3002771D5 /* arrow-down.png */; };
+		D4C347D216DE43E3002771D5 /* arrow-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C347CA16DE43E3002771D5 /* arrow-down@2x.png */; };
+		D4C347DD16DE4DA9002771D5 /* slideknob-tex.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C347DB16DE4DA7002771D5 /* slideknob-tex.png */; };
+		D4C347DE16DE4DA9002771D5 /* slideknob-tex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C347DC16DE4DA8002771D5 /* slideknob-tex@2x.png */; };
+		D4C347E116DE4EF0002771D5 /* slideknob-hltd-tex.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C347DF16DE4EF0002771D5 /* slideknob-hltd-tex.png */; };
+		D4C347E216DE4EF0002771D5 /* slideknob-hltd-tex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4C347E016DE4EF0002771D5 /* slideknob-hltd-tex@2x.png */; };
+		D4C6354316F1E34E00E39632 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4C6354216F1E34E00E39632 /* QuartzCore.framework */; };
+		D4CD178816E91B0F00F7797B /* back-tex.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CD178616E91B0E00F7797B /* back-tex.png */; };
+		D4CD178916E91B0F00F7797B /* back-tex@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CD178716E91B0E00F7797B /* back-tex@2x.png */; };
+		D4CD178C16E925AC00F7797B /* TouchPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CD178B16E925AB00F7797B /* TouchPadView.m */; };
+		D4D9713516D6CFAA002ABE40 /* MCNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4D9713416D6CFAA002ABE40 /* MCNavigationController.xib */; };
+		D4DF519A16E7E23500F4C6AF /* undo-btn-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4DF519816E7E23500F4C6AF /* undo-btn-icon.png */; };
+		D4DF519B16E7E23500F4C6AF /* undo-btn-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4DF519916E7E23500F4C6AF /* undo-btn-icon@2x.png */; };
+		D4F915AB16D677510004B7E9 /* TouchControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F915A916D677510004B7E9 /* TouchControlViewController.m */; };
+		D4F915AC16D677510004B7E9 /* TouchControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4F915AA16D677510004B7E9 /* TouchControlViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4562EB616DFE09700163195 /* GMProgram.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GMProgram.plist; sourceTree = "<group>"; };
+		D4562EBC16DFFF9900163195 /* GMProgListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMProgListCell.xib; sourceTree = "<group>"; };
+		D45E7A8D16D7DAD70060D7EB /* arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right.png"; sourceTree = "<group>"; };
+		D45E7A8E16D7DAD70060D7EB /* arrow-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-right@2x.png"; sourceTree = "<group>"; };
+		D45E7A9916D7E1150060D7EB /* arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left.png"; sourceTree = "<group>"; };
+		D45E7A9A16D7E1150060D7EB /* arrow-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-left@2x.png"; sourceTree = "<group>"; };
+		D470747C16CCEDC5002E4B00 /* NoteKeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteKeyView.h; sourceTree = "<group>"; };
+		D470747D16CCEDC5002E4B00 /* NoteKeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteKeyView.m; sourceTree = "<group>"; };
+		D487174E16E3597B00D50B71 /* GMProgListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMProgListTableView.h; sourceTree = "<group>"; };
+		D487174F16E3597B00D50B71 /* GMProgListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMProgListTableView.m; sourceTree = "<group>"; };
+		D490EFFF16EB26FE00945E65 /* MCDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCDefines.h; sourceTree = "<group>"; };
+		D4919A2B16D6230000FED00E /* MCData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MCData.plist; sourceTree = "<group>"; };
+		D4932F2116D272BF005419BF /* Black-Key-27@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black-Key-27@2x.png"; sourceTree = "<group>"; };
+		D4932F2216D272BF005419BF /* White-Key-Center-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White-Key-Center-40@2x.png"; sourceTree = "<group>"; };
+		D4932F2316D272BF005419BF /* White-Key-Left-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White-Key-Left-40@2x.png"; sourceTree = "<group>"; };
+		D4932F2416D272BF005419BF /* White-Key-Right-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White-Key-Right-40@2x.png"; sourceTree = "<group>"; };
+		D497B05D16CE3E8E00B6DB78 /* Black-Key-27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black-Key-27.png"; sourceTree = "<group>"; };
+		D497B05E16CE3E8E00B6DB78 /* White-Key-Center-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White-Key-Center-40.png"; sourceTree = "<group>"; };
+		D497B05F16CE3E8E00B6DB78 /* White-Key-Left-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White-Key-Left-40.png"; sourceTree = "<group>"; };
+		D497B06016CE3E8E00B6DB78 /* White-Key-Right-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White-Key-Right-40.png"; sourceTree = "<group>"; };
+		D498225C16B97746006F5294 /* MidiControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidiControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D498226016B97746006F5294 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D498226216B97746006F5294 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D498226416B97746006F5294 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D498226816B97746006F5294 /* MidiControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MidiControl-Info.plist"; sourceTree = "<group>"; };
+		D498226A16B97746006F5294 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D498226C16B97746006F5294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D498226E16B97746006F5294 /* MidiControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MidiControl-Prefix.pch"; sourceTree = "<group>"; };
+		D498226F16B97746006F5294 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D498227016B97746006F5294 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D498227216B97746006F5294 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D498227416B97746006F5294 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D498227616B97746006F5294 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D498227816B97746006F5294 /* PianoKbdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PianoKbdViewController.h; sourceTree = "<group>"; };
+		D498227916B97746006F5294 /* PianoKbdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PianoKbdViewController.m; sourceTree = "<group>"; };
+		D498228316B98088006F5294 /* PianoKbdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PianoKbdViewController.xib; sourceTree = "<group>"; };
+		D4AED99C16F5DDD200B9F2A8 /* note-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note-off.png"; sourceTree = "<group>"; };
+		D4AED99D16F5DDD200B9F2A8 /* note-off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note-off@2x.png"; sourceTree = "<group>"; };
+		D4C02B2C16E7757400AF7B3E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		D4C02B2D16E7757400AF7B3E /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		D4C02B2E16E7757400AF7B3E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		D4C02B2F16E7757400AF7B3E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		D4C02B3016E7757400AF7B3E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D4C02B3116E7757400AF7B3E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		D4C02B3216E7757400AF7B3E /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		D4C347C316DE43E1002771D5 /* touchpad-tex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "touchpad-tex.jpg"; sourceTree = "<group>"; };
+		D4C347C416DE43E1002771D5 /* touchpad-tex@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "touchpad-tex@2x.jpg"; sourceTree = "<group>"; };
+		D4C347C716DE43E2002771D5 /* arrow-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up.png"; sourceTree = "<group>"; };
+		D4C347C816DE43E2002771D5 /* arrow-up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up@2x.png"; sourceTree = "<group>"; };
+		D4C347C916DE43E3002771D5 /* arrow-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down.png"; sourceTree = "<group>"; };
+		D4C347CA16DE43E3002771D5 /* arrow-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down@2x.png"; sourceTree = "<group>"; };
+		D4C347DB16DE4DA7002771D5 /* slideknob-tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slideknob-tex.png"; sourceTree = "<group>"; };
+		D4C347DC16DE4DA8002771D5 /* slideknob-tex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slideknob-tex@2x.png"; sourceTree = "<group>"; };
+		D4C347DF16DE4EF0002771D5 /* slideknob-hltd-tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slideknob-hltd-tex.png"; sourceTree = "<group>"; };
+		D4C347E016DE4EF0002771D5 /* slideknob-hltd-tex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slideknob-hltd-tex@2x.png"; sourceTree = "<group>"; };
+		D4C6354216F1E34E00E39632 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D4CD178616E91B0E00F7797B /* back-tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-tex.png"; sourceTree = "<group>"; };
+		D4CD178716E91B0E00F7797B /* back-tex@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-tex@2x.png"; sourceTree = "<group>"; };
+		D4CD178A16E925AB00F7797B /* TouchPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchPadView.h; sourceTree = "<group>"; };
+		D4CD178B16E925AB00F7797B /* TouchPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchPadView.m; sourceTree = "<group>"; };
+		D4D9713416D6CFAA002ABE40 /* MCNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MCNavigationController.xib; sourceTree = "<group>"; };
+		D4DF519816E7E23500F4C6AF /* undo-btn-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "undo-btn-icon.png"; sourceTree = "<group>"; };
+		D4DF519916E7E23500F4C6AF /* undo-btn-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "undo-btn-icon@2x.png"; sourceTree = "<group>"; };
+		D4F915A816D677510004B7E9 /* TouchControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchControlViewController.h; sourceTree = "<group>"; };
+		D4F915A916D677510004B7E9 /* TouchControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchControlViewController.m; sourceTree = "<group>"; };
+		D4F915AA16D677510004B7E9 /* TouchControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchControlViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D498225916B97746006F5294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C6354316F1E34E00E39632 /* QuartzCore.framework in Frameworks */,
+				D498226116B97746006F5294 /* UIKit.framework in Frameworks */,
+				D498226316B97746006F5294 /* Foundation.framework in Frameworks */,
+				D498226516B97746006F5294 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D470748016CD715C002E4B00 /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				D4C347C916DE43E3002771D5 /* arrow-down.png */,
+				D4C347CA16DE43E3002771D5 /* arrow-down@2x.png */,
+				D45E7A9916D7E1150060D7EB /* arrow-left.png */,
+				D45E7A9A16D7E1150060D7EB /* arrow-left@2x.png */,
+				D45E7A8D16D7DAD70060D7EB /* arrow-right.png */,
+				D45E7A8E16D7DAD70060D7EB /* arrow-right@2x.png */,
+				D4C347C716DE43E2002771D5 /* arrow-up.png */,
+				D4C347C816DE43E2002771D5 /* arrow-up@2x.png */,
+				D4CD178616E91B0E00F7797B /* back-tex.png */,
+				D4CD178716E91B0E00F7797B /* back-tex@2x.png */,
+				D497B05D16CE3E8E00B6DB78 /* Black-Key-27.png */,
+				D4932F2116D272BF005419BF /* Black-Key-27@2x.png */,
+				D4AED99C16F5DDD200B9F2A8 /* note-off.png */,
+				D4AED99D16F5DDD200B9F2A8 /* note-off@2x.png */,
+				D4C347DF16DE4EF0002771D5 /* slideknob-hltd-tex.png */,
+				D4C347E016DE4EF0002771D5 /* slideknob-hltd-tex@2x.png */,
+				D4C347DB16DE4DA7002771D5 /* slideknob-tex.png */,
+				D4C347DC16DE4DA8002771D5 /* slideknob-tex@2x.png */,
+				D4C347C316DE43E1002771D5 /* touchpad-tex.jpg */,
+				D4C347C416DE43E1002771D5 /* touchpad-tex@2x.jpg */,
+				D4DF519816E7E23500F4C6AF /* undo-btn-icon.png */,
+				D4DF519916E7E23500F4C6AF /* undo-btn-icon@2x.png */,
+				D497B05E16CE3E8E00B6DB78 /* White-Key-Center-40.png */,
+				D4932F2216D272BF005419BF /* White-Key-Center-40@2x.png */,
+				D497B05F16CE3E8E00B6DB78 /* White-Key-Left-40.png */,
+				D4932F2316D272BF005419BF /* White-Key-Left-40@2x.png */,
+				D497B06016CE3E8E00B6DB78 /* White-Key-Right-40.png */,
+				D4932F2416D272BF005419BF /* White-Key-Right-40@2x.png */,
+			);
+			name = Imgs;
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		D498225116B97746006F5294 = {
+			isa = PBXGroup;
+			children = (
+				D498226616B97746006F5294 /* MidiControl */,
+				D498225F16B97746006F5294 /* Frameworks */,
+				D498225D16B97746006F5294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D498225D16B97746006F5294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D498225C16B97746006F5294 /* MidiControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D498225F16B97746006F5294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4C6354216F1E34E00E39632 /* QuartzCore.framework */,
+				D498226016B97746006F5294 /* UIKit.framework */,
+				D498226216B97746006F5294 /* Foundation.framework */,
+				D498226416B97746006F5294 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D498226616B97746006F5294 /* MidiControl */ = {
+			isa = PBXGroup;
+			children = (
+				D4C02B2B16E7757400AF7B3E /* Icons */,
+				D470748016CD715C002E4B00 /* Imgs */,
+				D498226F16B97746006F5294 /* AppDelegate.h */,
+				D498227016B97746006F5294 /* AppDelegate.m */,
+				D490EFFF16EB26FE00945E65 /* MCDefines.h */,
+				D4D9713416D6CFAA002ABE40 /* MCNavigationController.xib */,
+				D4CD178D16E926DF00F7797B /* PianoKbd */,
+				D4CD178E16E9270300F7797B /* TouchControl */,
+				D498226716B97746006F5294 /* Supporting Files */,
+			);
+			path = MidiControl;
+			sourceTree = "<group>";
+		};
+		D498226716B97746006F5294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4919A2B16D6230000FED00E /* MCData.plist */,
+				D4562EB616DFE09700163195 /* GMProgram.plist */,
+				D498226816B97746006F5294 /* MidiControl-Info.plist */,
+				D498226916B97746006F5294 /* InfoPlist.strings */,
+				D498226C16B97746006F5294 /* main.m */,
+				D498226E16B97746006F5294 /* MidiControl-Prefix.pch */,
+				D498227216B97746006F5294 /* Default.png */,
+				D498227416B97746006F5294 /* Default@2x.png */,
+				D498227616B97746006F5294 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4C02B2B16E7757400AF7B3E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D4C02B2C16E7757400AF7B3E /* Icon-72.png */,
+				D4C02B2D16E7757400AF7B3E /* Icon-Small-50.png */,
+				D4C02B2E16E7757400AF7B3E /* Icon-Small.png */,
+				D4C02B2F16E7757400AF7B3E /* Icon-Small@2x.png */,
+				D4C02B3016E7757400AF7B3E /* Icon.png */,
+				D4C02B3116E7757400AF7B3E /* Icon@2x.png */,
+				D4C02B3216E7757400AF7B3E /* iTunesArtwork */,
+			);
+			name = Icons;
+			path = icons;
+			sourceTree = "<group>";
+		};
+		D4CD178D16E926DF00F7797B /* PianoKbd */ = {
+			isa = PBXGroup;
+			children = (
+				D498227816B97746006F5294 /* PianoKbdViewController.h */,
+				D498227916B97746006F5294 /* PianoKbdViewController.m */,
+				D498228316B98088006F5294 /* PianoKbdViewController.xib */,
+				D487174E16E3597B00D50B71 /* GMProgListTableView.h */,
+				D487174F16E3597B00D50B71 /* GMProgListTableView.m */,
+				D4562EBC16DFFF9900163195 /* GMProgListCell.xib */,
+				D470747C16CCEDC5002E4B00 /* NoteKeyView.h */,
+				D470747D16CCEDC5002E4B00 /* NoteKeyView.m */,
+			);
+			name = PianoKbd;
+			sourceTree = "<group>";
+		};
+		D4CD178E16E9270300F7797B /* TouchControl */ = {
+			isa = PBXGroup;
+			children = (
+				D4F915A816D677510004B7E9 /* TouchControlViewController.h */,
+				D4F915A916D677510004B7E9 /* TouchControlViewController.m */,
+				D4F915AA16D677510004B7E9 /* TouchControlViewController.xib */,
+				D4CD178A16E925AB00F7797B /* TouchPadView.h */,
+				D4CD178B16E925AB00F7797B /* TouchPadView.m */,
+			);
+			name = TouchControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D498225B16B97746006F5294 /* MidiControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D498228016B97746006F5294 /* Build configuration list for PBXNativeTarget "MidiControl" */;
+			buildPhases = (
+				D498225816B97746006F5294 /* Sources */,
+				D498225916B97746006F5294 /* Frameworks */,
+				D498225A16B97746006F5294 /* Resources */,
+				50524F424C454D533F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MidiControl;
+			productName = MidiControl;
+			productReference = D498225C16B97746006F5294 /* MidiControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D498225316B97746006F5294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Vitaliy;
+			};
+			buildConfigurationList = D498225616B97746006F5294 /* Build configuration list for PBXProject "MidiControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D498225116B97746006F5294;
+			productRefGroup = D498225D16B97746006F5294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D498225B16B97746006F5294 /* MidiControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D498225A16B97746006F5294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D498226B16B97746006F5294 /* InfoPlist.strings in Resources */,
+				D498227316B97746006F5294 /* Default.png in Resources */,
+				D498227516B97746006F5294 /* Default@2x.png in Resources */,
+				D498227716B97746006F5294 /* Default-568h@2x.png in Resources */,
+				D498228416B98088006F5294 /* PianoKbdViewController.xib in Resources */,
+				D497B06116CE3E8E00B6DB78 /* Black-Key-27.png in Resources */,
+				D497B06216CE3E8E00B6DB78 /* White-Key-Center-40.png in Resources */,
+				D497B06316CE3E8E00B6DB78 /* White-Key-Left-40.png in Resources */,
+				D497B06416CE3E8E00B6DB78 /* White-Key-Right-40.png in Resources */,
+				D4932F2516D272C0005419BF /* Black-Key-27@2x.png in Resources */,
+				D4932F2616D272C0005419BF /* White-Key-Center-40@2x.png in Resources */,
+				D4932F2716D272C0005419BF /* White-Key-Left-40@2x.png in Resources */,
+				D4932F2816D272C0005419BF /* White-Key-Right-40@2x.png in Resources */,
+				D4919A2C16D6230000FED00E /* MCData.plist in Resources */,
+				D4F915AC16D677510004B7E9 /* TouchControlViewController.xib in Resources */,
+				D4D9713516D6CFAA002ABE40 /* MCNavigationController.xib in Resources */,
+				D45E7A8F16D7DAD70060D7EB /* arrow-right.png in Resources */,
+				D45E7A9016D7DAD70060D7EB /* arrow-right@2x.png in Resources */,
+				D45E7A9B16D7E1150060D7EB /* arrow-left.png in Resources */,
+				D45E7A9C16D7E1150060D7EB /* arrow-left@2x.png in Resources */,
+				D4C347CB16DE43E3002771D5 /* touchpad-tex.jpg in Resources */,
+				D4C347CC16DE43E3002771D5 /* touchpad-tex@2x.jpg in Resources */,
+				D4C347CF16DE43E3002771D5 /* arrow-up.png in Resources */,
+				D4C347D016DE43E3002771D5 /* arrow-up@2x.png in Resources */,
+				D4C347D116DE43E3002771D5 /* arrow-down.png in Resources */,
+				D4C347D216DE43E3002771D5 /* arrow-down@2x.png in Resources */,
+				D4C347DD16DE4DA9002771D5 /* slideknob-tex.png in Resources */,
+				D4C347DE16DE4DA9002771D5 /* slideknob-tex@2x.png in Resources */,
+				D4C347E116DE4EF0002771D5 /* slideknob-hltd-tex.png in Resources */,
+				D4C347E216DE4EF0002771D5 /* slideknob-hltd-tex@2x.png in Resources */,
+				D4562EB716DFE09700163195 /* GMProgram.plist in Resources */,
+				D4562EBD16DFFF9900163195 /* GMProgListCell.xib in Resources */,
+				D4C02B3316E7757400AF7B3E /* Icon-72.png in Resources */,
+				D4C02B3416E7757400AF7B3E /* Icon-Small-50.png in Resources */,
+				D4C02B3516E7757400AF7B3E /* Icon-Small.png in Resources */,
+				D4C02B3616E7757400AF7B3E /* Icon-Small@2x.png in Resources */,
+				D4C02B3716E7757400AF7B3E /* Icon.png in Resources */,
+				D4C02B3816E7757400AF7B3E /* Icon@2x.png in Resources */,
+				D4C02B3916E7757400AF7B3E /* iTunesArtwork in Resources */,
+				D4DF519A16E7E23500F4C6AF /* undo-btn-icon.png in Resources */,
+				D4DF519B16E7E23500F4C6AF /* undo-btn-icon@2x.png in Resources */,
+				D4CD178816E91B0F00F7797B /* back-tex.png in Resources */,
+				D4CD178916E91B0F00F7797B /* back-tex@2x.png in Resources */,
+				D4AED99E16F5DDD200B9F2A8 /* note-off.png in Resources */,
+				D4AED99F16F5DDD200B9F2A8 /* note-off@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+
+
+
+/* Begin PBXSourcesBuildPhase section */
+		D498225816B97746006F5294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D498226D16B97746006F5294 /* main.m in Sources */,
+				D498227116B97746006F5294 /* AppDelegate.m in Sources */,
+				D498227A16B97746006F5294 /* PianoKbdViewController.m in Sources */,
+				D470747E16CCEDC5002E4B00 /* NoteKeyView.m in Sources */,
+				D4F915AB16D677510004B7E9 /* TouchControlViewController.m in Sources */,
+				D487175016E3597B00D50B71 /* GMProgListTableView.m in Sources */,
+				D4CD178C16E925AC00F7797B /* TouchPadView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D498226916B97746006F5294 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D498226A16B97746006F5294 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D498227E16B97746006F5294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D498227F16B97746006F5294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D498228116B97746006F5294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MidiControl/MidiControl-Prefix.pch";
+				INFOPLIST_FILE = "MidiControl/MidiControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D498228216B97746006F5294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MidiControl/MidiControl-Prefix.pch";
+				INFOPLIST_FILE = "MidiControl/MidiControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D498225616B97746006F5294 /* Build configuration list for PBXProject "MidiControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D498227E16B97746006F5294 /* Debug */,
+				D498227F16B97746006F5294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D498228016B97746006F5294 /* Build configuration list for PBXNativeTarget "MidiControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D498228116B97746006F5294 /* Debug */,
+				D498228216B97746006F5294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D498225316B97746006F5294 /* Project object */;
+}

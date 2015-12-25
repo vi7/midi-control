@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IPMidiPort</key>
+	<integer>21928</integer>
+	<key>Oct1Num</key>
+	<integer>5</integer>
+	<key>Oct1ChanNum</key>
+	<integer>1</integer>
+	<key>Oct1VelVal</key>
+	<integer>120</integer>
+	<key>Oct2Num</key>
+	<integer>6</integer>
+	<key>Oct2ChanNum</key>
+	<integer>1</integer>
+	<key>Oct2VelVal</key>
+	<integer>120</integer>
+	<key>XCCNum</key>
+	<integer>1</integer>
+	<key>YCCNum</key>
+	<integer>2</integer>
+</dict>
+</plist>
